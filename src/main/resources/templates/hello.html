@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="'Hello, ' + ${name} + '!'"></title>
+</head>
+<body>
+<h2 class="hello-title" th:text="'Hello, ' + ${name} + '!'"></h2>
+<div><a href="/user">User</a> </div>
+<div><a href="/admin/index">Admin</a> </div>
+<div><a href="/logout">Logout ser</a> </div>
+<div><a href="/perform_logout">Logout ser2</a> </div>
+<div><a href="https://localhost:9443/oidc/logout">Logout HTID</a> </div>
+
+</body>
+</html>

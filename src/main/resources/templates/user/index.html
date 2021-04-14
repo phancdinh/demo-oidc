@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div>Success User</div>
+    <div  th:text="'Access token, ' + ${access_token}"></div>
+    <div  th:text="'getPrincipal , ' + ${getPrincipal}"></div>
+    <div  th:text="'Groups , ' + ${groups}"></div>
+
+    <div><a th:href="${logoutUrl}">Logout HTID</a> </div>
+</body>
+</html>
